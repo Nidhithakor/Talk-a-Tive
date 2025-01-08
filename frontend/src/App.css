@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.App {
+    min-height: 100vh;
+    display: flex;
+    background-image: url("./background.png");
+    background-size: cover;
+    background-position: center;
+    color: black;
+}
+
+.mychat-main-chatpage{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 91.5vh;
+    padding: 10px;
+    margin-right: 5px;
+}
+
+.mychat-chatpage {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+.chatBox{
+    background-color: #F8F8F8;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 100%;
+    height: 90%;
+    border-radius: 4px;
+    overflow-y: hidden;
+}
+
+.side-drawer-main{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 5px 10px 5px 10px;
+    border-width: 5px;
+    justify-content: space-between;
+
+}
+
+.side-drawer{
+    display: flex;
+    padding-bottom: 2px;
+}
+
+.userbadgeitem{
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+.single-chat{
+    align-items: center;
+    display: flex;
+}
+
+.bob-text{
+    padding-bottom: 3px;
+    font-family:sans-serif;
+}
+
+.singlechatbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(136, 136, 136, 0.281);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
